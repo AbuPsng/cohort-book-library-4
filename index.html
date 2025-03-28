@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <nav>
+        <div class="search-bar">
+          <input id="searchInput" type="text" />
+          <button id="clearBtn">Clear</button>
+        </div>
+        <div class="sort-grid-holder">
+          <div class="sortholder">
+            <label for="sort">Sort by:</label>
+            <select id="select" name="sort" value="default">
+              <option value="default">default</option>
+              <option value="publishedDate">by released</option>
+              <option value="increasing">a-z</option>
+              <option value="descending">z-a</option>
+            </select>
+          </div>
+          <div class="grid-holder">
+            <button id="gridBtn" class="layoutBtn select">grid</button>
+            <button id="listBtn" class="layoutBtn">list</button>
+          </div>
+        </div>
+      </nav>
+
+      <main id="bookContainer" class="grid"></main>
+      <div class="pagination">
+        <button id="prevBtn">Prev</button>
+        <p id="pageNo">0</p>
+        <button id="nextBtn">next</button>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

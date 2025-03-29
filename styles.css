@@ -321,6 +321,13 @@ a {
     width: 100%;
     justify-content: end;
   }
+  #bookTitle {
+    font-size: 15px;
+    height: 40px;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -350,13 +357,6 @@ a {
 }
 
 @media only screen and (max-width: 360px) {
-  #bookTitle {
-    font-size: 15px;
-    height: 40px;
-    font-weight: 600;
-    line-height: 1.5rem;
-    margin-bottom: 1rem;
-  }
   .layoutBtn {
     padding: 5px;
   }

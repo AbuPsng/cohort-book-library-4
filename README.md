@@ -46,8 +46,13 @@ toggleLayout(layout): Toggles between grid and list layouts.
 
 handlePrevClick() / handleNextClick(): Handles pagination.
 
+<<<<<<< HEAD
 //\***\* SCREENSHOT \*\***//
 ![alt text](<Screenshot (26).png>)
 
 //\***\* Live link \*\***//
+=======
+
+//**** Live link ****//
+>>>>>>> 8595c01c9701dbc148e2eb9ee64437d047b1bf23
 https://cohort-book-library-4.vercel.app/

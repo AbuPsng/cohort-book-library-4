@@ -323,14 +323,11 @@ a {
   }
   #bookTitle {
     font-size: 15px;
-    height: 40px;
-    font-weight: 600;
-    line-height: 1rem;
-    margin-bottom: 1rem;
+    height: 43px;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   .bookHolderGrid {
     display: flex;
     width: 100%;
@@ -342,6 +339,7 @@ a {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
   }
+
   .bookHolderList {
     display: flex;
     flex-direction: column;
